@@ -1,0 +1,12 @@
+.boxDom{width: 302px;height:302px;margin:50px auto; }
+.clockBg{ width: 100%;height: 100%;background-image: url(../img/time2.png);background-size: 100%,100%;
+		background-repeat:none;position: relative;}	
+#V_h{width: 5px;height:70px;background:#efe90b;left: 149px; top: 82px;}
+#V_m{width: 4px;height:90px;background:#0be280;left: 149px; top:62px;}
+#V_s{width:1px;height:110px;background: red;left:150px;top:52px;}
+#V_h,#V_m,#V_s{transform-origin:bottom;position: absolute;}
+#showTime{ text-align: center;font-weight: bold; font-size:44px; line-height: 2;color: rgba(156, 91, 66, 0.8);}
+#clock_wrapper{display: inline-block;}
+.clock_hms,.clock_divider{list-style-type:none;float: left;}
+.clock_hms{background: #ec6f6f;margin: 5px;border-radius: 10px;width:55px;box-shadow: 0 0px 30px 5px #775454;}
+.clock_divider{}
